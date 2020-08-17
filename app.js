@@ -20,9 +20,7 @@ app.use(express.static('public'));
 
 
 var logReceiver = require("srcds-log-receiver");
-var options = {
-	port: 9871  // this is the default
-};
+var options = {address: "192.168.1.127",port: 9871  }; // this is the default
 //var matchstart = 'Match_Start';
 //document.write("Hello");
 var msg = String ();
